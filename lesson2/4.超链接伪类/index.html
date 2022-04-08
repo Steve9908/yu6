@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*默认的颜色*/
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        /*鼠标悬停的状态 重点，只需要记住这个就行*/
+        a:hover{
+            color:rebeccapurple;
+            font-size: 20px;
+        }
+        /*鼠标按住未释放的状态*/
+        a:active{
+            color:green;
+        }
+        /*未点击时的效果*/
+        /*a:link{*/
+        /*    color:#a13d30;*/
+        /*}*/
+        /*点击后的颜色*/
+        /*a:visited{*/
+        /*    color:red;*/
+        /*}*/
+        /*阴影：
+        text-shadow  阴影颜色  水平偏移  垂直偏移  阴影半径
+        */
+        #price{
+            text-shadow: green 10px 0px 10px;
+        }
+    </style>
+</head>
+<body>
+<a href="#">
+    <img src="images/1.jpg" alt="" width="150" height="150">
+</a>
+<p>
+    <a href="#">Keqing</a>
+</p>
+<p>
+    <a href="">Author:sddss</a>
+</p>
+<p id="price">
+    $99
+</p>
+</body>
+</html>

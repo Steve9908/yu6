@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+id选择器：id必须保证全局唯一
+#id名称 {}
+不遵循就近原则，固定的
+id选择器 > 类选择器 > 标签选择器
+*/
+        #zhen{
+            color:pink;
+        }
+        .de{
+            color: #652727;
+        }
+        h1{
+            color: #16c210;
+        }
+    </style>
+</head>
+<body>
+<h1 id="zhen" class="de">1</h1>
+<h1 class="de">2</h1>
+<h1 class="de">3</h1>
+<h1>4</h1>
+<h1>5</h1>
+</body>
+</html>
